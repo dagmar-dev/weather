@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Lato:wght@300&family=Roboto&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background:rgb(35, 36, 44);
+}
+
+
+.container{
+    background-image:url("/partly\ cloudy.jpg"); 
+    background:cover;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    padding:1rem;
+    gap:0.5rem;
+    color:rgb(241, 241, 241);
+    max-width: 375px;
+    margin:auto;
+}
+
+h1{
+    font-size: 4rem;
+}
